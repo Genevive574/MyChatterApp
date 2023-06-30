@@ -31,6 +31,9 @@ export default function Signup() {
   const [thumbnailError, setThumbnailError] = useState<string | null>(null);
   const [textType, setTextType] = useState<boolean>(false);
 
+  // const handleEmailChange = (e: ChangeEvent<HTMLInputElement>): void => {
+  //   setEmail(e.target.value.trim());
+  // };
   // functions
   const { signup, isPending, error } = useSignup();
   const {
@@ -83,7 +86,10 @@ export default function Signup() {
         <div className="text">
           <h1>Chatter</h1>
           <p>
-          Discover Chatter App, the premier web app for global conversations! Join our vibrant community, connect with diverse individuals, and explore a wide array of chat rooms on topics you love. Sign up now and let the conversations begin!
+            Discover Chatter App, the premier web app for global conversations!
+            Join our vibrant community, connect with diverse individuals, and
+            explore a wide array of chat rooms on topics you love. Sign up now
+            and let the conversations begin!
           </p>
         </div>
         <img src="./img/signing.jpg" alt="intro" className="auth-img" />
@@ -148,7 +154,7 @@ export default function Signup() {
               id="email"
               required
               type="email"
-              onChange={(e) => setEmail(e.target.value)}
+              onChange={(e) => setEmail(e.target.value.trim())}
               value={email}
               placeholder="Email Address"
             />

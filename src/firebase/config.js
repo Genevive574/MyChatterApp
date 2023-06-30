@@ -4,7 +4,7 @@ import "firebase/compat/auth";
 import "firebase/compat/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCnCBU4cqdQP-Jdsk1Mc59sAigh6SRehZk",
+apiKey: "AIzaSyCnCBU4cqdQP-Jdsk1Mc59sAigh6SRehZk",
 authDomain: "genevive-s-chatter.firebaseapp.com",
 projectId: "genevive-s-chatter",
 storageBucket: "genevive-s-chatter.appspot.com",
