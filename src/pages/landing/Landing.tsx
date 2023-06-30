@@ -1,4 +1,4 @@
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 // styles
 import "./Landing.css";
@@ -9,7 +9,7 @@ import { useLogout } from "../../hooks/useLogout";
 
 export default function Landing() {
   const { user } = useAuthContext();
-  const { logout, isPending, error } = useLogout();
+  const { logout, isPending } = useLogout();
 
   const navigate=useNavigate()
 
@@ -62,9 +62,9 @@ export default function Landing() {
 
       <section id="hero">
         <div>
-          <img src="./img/hero.png" alt="welcome message" />
+          <img src="./img/land.jpg" alt="welcome message" />
           <div id ="welcome">
-            <h1>Welcome to my chatter App</h1>
+            <h1>Welcome to chatter App</h1>
             <p>
             Welcome to Chatter App, the ultimate platform for uninhibited self-expression. With no restrictions or limitations, you can connect with like-minded individuals, engage in lively discussions, and share your thoughts, ideas, and emotions without hindrance. Join our vibrant community today, unleash your inner chatterbox, and embark on an exciting journey of self-discovery. Sign up now and let your voice be heard with Chatter App!
             </p>

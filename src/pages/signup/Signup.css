@@ -58,12 +58,11 @@
   gap: 10px;
   font-size: 2rem;
   font-weight: bold;
-  color: #5b8dd7;
+  color: purple;
   margin-bottom: 8px;
 }
 .auth-form p {
   padding: 8px 0;
-  text-align: start;
   max-width: 500px;
   font-size: 20px;
   line-height: 30px;
@@ -119,7 +118,7 @@ p.join {
 }
 .auth-form .btn,
 .interest .btn {
-  background: #5b8dd7;
+  background: #c25bd7;
   height: 40px;
   padding: 0 24px;
   color: #fff;
@@ -146,6 +145,15 @@ p.join {
   .auth-img {
     height: 300px;
   }
+}
+
+.text{
+  text-align:center;
+  text-align-last: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* dark mode  */

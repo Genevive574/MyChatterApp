@@ -16,7 +16,7 @@ aside .interests {
 aside .interests li {
   display: inline-block;
   background: #eee;
-  color: var(--blue);
+  color: var(--purple);
   margin: 3px;
   padding: 7px;
   border-radius: 10px;

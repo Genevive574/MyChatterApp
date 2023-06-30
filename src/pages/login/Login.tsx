@@ -33,11 +33,10 @@ const Login: React.FC = () => {
         <div className="text">
           <h1>Chatter</h1>
           <p>
-            Unleash the Power of Words, Connect with Like-minded Readers and
-            Writers
+          Discover Chatter App, the premier web app for global conversations! Join our vibrant community, connect with diverse individuals, and explore a wide array of chat rooms on topics you love. Sign up now and let the conversations begin!
           </p>
         </div>
-        <img src="./img/bg.png" alt="intro" className="auth-img" />
+        <img src="./img/signing.jpg" alt="intro" className="auth-img" />
       </div>
 
       <div className="auth-content">
