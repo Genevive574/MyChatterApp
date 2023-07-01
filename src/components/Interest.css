@@ -6,7 +6,7 @@
   height: 100vh;
   background: #fff;
   z-index: 8;
-  overflow: hidden;
+  overflow: scroll;
 }
 .interest {
   margin: 24px;

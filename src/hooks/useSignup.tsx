@@ -10,9 +10,9 @@ export const useSignup = () => {
 
   const signup = async (
     firstName: string,
+    lastName: string,
     email: string,
     password: string,
-    lastName: string,
     thumbnail: any,
     category: string
   ) => {

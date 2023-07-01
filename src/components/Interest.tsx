@@ -49,7 +49,7 @@ export default function Interest() {
 
   return (
     <div className="interest-container">
-      <div className="interest">
+      <div style={{overflow: "scroll"}} className="interest">
         {response.error && <div className="error">An error occurred</div>}
         <h2>Interest</h2>
         <p>
